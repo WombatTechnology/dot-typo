@@ -2,6 +2,7 @@
   "name": "typo-fixer",
   "displayName": "typo-fixer",
   "description": "Automated typo correction for your coding comfort✨",
+  "icon": "images/logo.png",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.78.0"
