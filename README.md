@@ -7,7 +7,7 @@ TypoFixer fix your typo automatticaly✅
 You can install from store.
 
 ## Extension Settings
-Create a config file named `.typofix` at the root of your project.
+Create a config file named `.typo` at the root of your project.
 
 Configurations should be written in JSON format, where the key is the correct word and the value is an array of common typos.
 
@@ -29,5 +29,4 @@ Forexample:
 With this configuration, cosnt will be fixed to const, while imort and improt will be fixed to import when the file is saved.
 
 ## Release Notes
-### 0.0.1
-First release :rocket:
+@see CHANGELOG

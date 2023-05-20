@@ -2,23 +2,24 @@
 import * as vscode from "vscode"
 import * as fs from "fs"
 import * as path from "path"
-
 export function activate(context: vscode.ExtensionContext) {
   const configPath = path.join(vscode.workspace.rootPath!, ".typo")
 
   if (!fs.existsSync(configPath)) {
-    vscode.window.showInformationMessage(
-      ".typo file does not exist in your workspace. Please create one to enable typo fixing."
-    )
     // Display a message box with the option to create a .typo file.
     vscode.window
       .showInformationMessage(
-        ".typo file does not exist in your workspace. Please create one to enable typo fixing.",
+        ".typo file does not exist in your workspace. Please create to enable typo fixing.",
         "Create .typo file"
       )
       .then((option) => {
+        const template = `{
+  "const": ["cosnt"],
+  "import": ["improt", "imporet"]
+}
+`
         if (option === "Create .typo file") {
-          fs.writeFileSync(configPath, JSON.stringify({}), "utf8")
+          fs.writeFileSync(configPath, template, "utf8")
         }
       })
   }
