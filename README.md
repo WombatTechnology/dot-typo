@@ -1,10 +1,10 @@
-# VSCode TypoFixer
-TypoFixer fix your typo automatticaly✅
+# VSCode .typo
+.typo fix your typo automatticaly✅
 
 ![CleanShot 2023-05-20 at 17 15 51](https://github.com/WombatTechnology/typo-fixer/assets/6919381/71663ba9-c702-4ef1-8929-dfa12988ba7a)
 
 ## Install
-You can install from store.
+You can install from [Marketplace](https://marketplace.visualstudio.com/items?itemName=WombatTechnology.dot-typo).
 
 ## Extension Settings
 Create a config file named `.typo` at the root of your project.
@@ -29,4 +29,4 @@ Forexample:
 With this configuration, cosnt will be fixed to const, while imort and improt will be fixed to import when the file is saved.
 
 ## Release Notes
-@see CHANGELOG
+See [Change Log](https://marketplace.visualstudio.com/items/WombatTechnology.dot-typo/changelog)

@@ -3,11 +3,12 @@
   "displayName": ".typo",
   "description": "Automated typo correction for your coding comfort✨",
   "icon": "images/logo.png",
+  "publisher": "WombatTechnology",
   "repository": {
     "type": "git",
     "url": "https://github.com/WombatTechnology/typo-fixer"
   },
-  "version": "0.0.1",
+  "version": "0.0.2",
   "engines": {
     "vscode": "^1.78.0"
   },
